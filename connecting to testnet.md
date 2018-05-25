@@ -4,7 +4,7 @@
 ```
 mkdir ~/gravity_testnet
 cd ~/gravity_testnet
-cp -r ~/graphenelab_gravitypublic/programs/witness_node .
+cp -r ~/gravity-core/programs/witness_node .
 cd witness_node
 ```
 
@@ -29,6 +29,8 @@ seed-node = testnet-seed-3.gravityprotocol.org:4623
 seed-node = testnet-seed-4.gravityprotocol.org:4623
 seed-node = testnet-seed-5.gravityprotocol.org:4623
 seed-node = testnet-seed-6.gravityprotocol.org:4623
+seed-node = testnet-seed-7.gravityprotocol.org:4623
+seed-node = testnet-seed-8.gravityprotocol.org:4623
 ...
 # P2P nodes to connect to on startup (may specify multiple times)
 # P2P nodes to connect to on startup (may specify multiple times)
@@ -43,8 +45,7 @@ Save changes and exit
 
 Node will start synchronization with the network, it can take from several minutes to several hours depending on the current blockchain length
 ```
-Started BitShares node on a chain with 0 blocks.
-Chain ID is 1ef966f31326524b5ef5869d3fb9145ffe80f4a9e3c93d4c7b395e9f1289711b
+Chain ID is ab5071857c28ddbc872d0ca508725fa3006ea7bdfda10f707433021f570fc27e
 Got block: #10000 time: 2018-04-03T03:14:35 latency: 645591253 ms from: init4  irreversible: 9797 (-203)
 Got block: #20000 time: 2018-04-03T20:05:55 latency: 584914289 ms from: init1  irreversible: 19992 (-8)
 Got block: #30000 time: 2018-04-04T10:06:55 latency: 534457595 ms from: init8  irreversible: 29991 (-9)
