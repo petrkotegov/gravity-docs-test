@@ -14,8 +14,8 @@ cd ~
 
 4. Clone the source code repository. After the first command you will be requested for your login and password in Unfuddle
 ```
-git clone -b testnet_rc1 https://graphenelab.unfuddle.com/git/graphenelab_gravitypublic/
-cd graphenelab_gravitypublic
+git clone https://github.com/GravityProtocol/gravity-core
+cd gravity-core
 git submodule update --init --recursive
 ```
 
